@@ -1,4 +1,5 @@
 <?php
+//session check
 session_start();
 if (!isset($_SESSION["username"])) {
     header("location: login.php");
@@ -713,6 +714,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     tos.appendChild(optionto36);
 
                     todiv.appendChild(tos);
+                }
+                else{
+
+
+
+                    
                 }
 
             }
